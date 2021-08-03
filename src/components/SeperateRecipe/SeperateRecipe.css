@@ -1,0 +1,67 @@
+.SepReci .content .Picture img {
+    width: 200px;
+}
+
+/*.Picture {
+    background-color: burlywood;
+    max-width: 300px;
+}*/
+
+.SepReci .content .recipeTitle h1{
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+/* .SepReci .content .recipeTitle { 
+    background-color: cornsilk;
+
+}*/
+
+.SepReci {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    /* width: 100%; */
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.SepReci .content {
+    box-shadow: 0 4px 8px 2px rgba(77, 77, 77, 0.15);
+    background-color: #a9dfc6;
+    max-width: 300px;
+    border-radius: 6px;
+    height: 380px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 20px;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    /* box-shadow: 0 8px 16px 0 #2c4147; */
+}
+/*.SepReci .content {
+    background-color: rgb(77 77 77 / 15%);
+    width: 200px;
+    height: 300px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 20px;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    box-shadow: 0 8px 16px 0 #2c4147; 
+}*/
+.SepReci .content .detailPage button{
+    
+    height: 25px;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 150px;
+}

@@ -1,0 +1,252 @@
+.Planner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Open Sans", Hebrew;
+    
+  }
+  
+  .mealp-blurb {
+    width: 100%;
+    align-items: center;
+  }
+  .mealp-blurb span {
+    display: block;
+    
+  }
+  .mealp-blurb span:first-of-type {
+    font-size: 50px;
+    margin-top: 5px;
+    
+  }
+  .mealp-blurb span:nth-child(2) {
+    font-size: 20px;
+    font-weight: lighter;
+    margin-left: 60px;
+    margin-right: 60px;
+    
+  }
+
+  section {
+    margin: 2rem 0 1rem 0;
+   
+  }
+  
+  .weekMeals h1 {
+    font-size: 30px;
+    font-weight: bold;
+    
+  }
+
+  .dayMacro ul {
+    font-size: 15px;
+    margin-left: 20px;
+  }
+  .controls  {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    
+  }
+  .boxB {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  input {
+    /*text-align: center;*/
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    height: 45px;
+    margin-left: 20px;
+    
+  }
+  
+.getBtn {
+    /*width: 100%;
+    padding: 0.5rem 1rem;
+    background-color: #45cf8f;
+    color: #f3f3f3;
+    border: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+     margin-top: 20px;*/
+    background-color: #00CED1;
+    border: 1px solid #000000;
+    padding: 3px 10px;
+    margin-left: 15px;
+    
+    font-size: 15px;
+    height: 45px;
+    margin-bottom: 1rem;
+    width: 250px;
+    font-weight:bold;
+    font-family: "Open Sans", Hebrew;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    
+  }
+
+  .getBtn:hover {
+    background-color: #20a8ca;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .nutrients ul {
+    display: flex;
+    width: 35rem;
+    justify-content: space-evenly;
+  }
+  
+  .meals {
+    display: flex;
+  
+  }
+  .weekMeals {
+    display: flex;
+    flex-direction: column;
+  }
+  .monday {
+    display: flex;
+    flex-direction: row;
+  }
+  .tuesday {
+    display: flex;
+    flex-direction: row;
+  }
+  .wednesday {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .thursday {
+    display: flex;
+    flex-direction: row;
+  }
+  .friday {
+    display: flex;
+    flex-direction: row;
+  }
+  .saturday {
+    display: flex;
+    flex-direction: row;
+  }
+
+.sunday {
+  display: flex;
+  flex-direction: row;
+}
+  img {
+    width: 100%;
+    margin-bottom: 1rem;
+    border-radius: 6px;
+  }
+  
+  article {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    margin: 0 1rem;
+    max-width: 300px;
+    height: 400px;
+    box-shadow: 0 4px 8px 2px rgba(77, 77, 77, 0.15);
+    background-color: #a9dfc6;
+    border-radius: 6px;
+    margin-bottom: 20px;
+  }
+  
+  article1 {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    margin: 0 1rem;
+    max-width: 300px;
+    height: 400px;
+    box-shadow: 0 4px 8px 2px rgba(77, 77, 77, 0.15);
+    background-color: #a9dfc6;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+   
+  }
+
+  article1 h2 {
+    font-size: 20px;
+  }
+
+  ul {
+    list-style: none;
+  }
+  
+  .instructions {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+   
+  }
+  
+  .detailPageP button{
+    margin-left: 45px;
+    height: 25px;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 150px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+
+ /* a {
+    text-decoration: none;
+    color:#000000;
+    width: fit-content;
+    padding: 0.5rem 1rem;
+  }
+  
+  a:hover {
+    cursor: pointer;
+    
+  }*/
+  
+  @media only screen and (max-width: 1024px) {
+    .meals {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .nutrients ul {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+  }
+
+  .back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 40px;
+    background: #00b0b3;
+    color: white;
+    cursor: pointer;
+    border-radius: 100px;
+    border: none;
+    box-shadow: 0 5px 10px #ccc;
+  }
+  
+  .back-to-top:hover {
+    background: rgb(41, 36, 36);
+  }
+  
+  

@@ -1,0 +1,58 @@
+.SearchRR {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1300px;
+    margin-top: 10px;
+}
+
+.SearchRR button {
+    background-color: #00CED1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: 1px solid #000000;
+    font-size: 20px;
+    border-radius: 5px;
+    height: 40px;
+}
+
+.paginationBttns {
+    width: 80%;
+    height: 40px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.paginationBttns a {
+    padding: 10px;
+    margin: 8px;
+    border-radius: 5px;
+    border: 1px solid black;
+    color: black;
+    cursor: pointer;
+}
+
+.paginationBttns a:hover {
+    background-color: lightgoldenrodyellow;
+}
+
+.paginationActive a {
+    background-color: lightgoldenrodyellow;
+    border-radius: 6px;
+}
+
+/*background-color: #00CED1;
+  border: 1px solid #000000;
+  padding: 5px 10px;
+  margin: 10px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  margin-top: 20px;
+  width: 190px;
+  font-weight:bold;
+  font-family: "Open Sans", Hebrew;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  
+  background-color:rgb(189, 158, 118);
+  */
