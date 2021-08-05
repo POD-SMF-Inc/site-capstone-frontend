@@ -1,5 +1,6 @@
 import axios from "axios"
-const { API_KEY_RECIPE } = require("../config")
+import { API_KEY_RECIPE } from "../config"
+
 class ApiCalls {
 
     constructor(apiUrl, apiKey)

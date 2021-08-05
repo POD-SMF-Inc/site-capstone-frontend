@@ -1,5 +1,6 @@
 import axios from "axios";
-const { YOUTUBE_API_KEY }= require("../config")
+import { YOUTUBE_API_KEY } from "../config"
+
 class YoutubeCalls {
     constructor(apiUrl, apiKey)
     {
